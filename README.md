@@ -12,5 +12,6 @@ Objectif : mettre en place un environnement conteneurisé pour une
 
 		Créez un dossier nommé workflow-apache-php contenant index.php :
 		 
-		 		$ mkdir -p workflow-apache-php/index.php
+		 		$ mkdir workflow-apache-php
+				$ cd workflow-apache-php
 				$ nano index.php
