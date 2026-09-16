@@ -6,4 +6,11 @@ Objectif : mettre en place un environnement conteneurisé pour une
 	application PHP utilisant Apache, puis configurer 
 	un pipeline CI/CD pour automatiser les tests et le déploiement
 
+--------------------------------------------------------------------------------------------
+
 Étape 1 : préparation de l'application PHP
+
+		Créez un dossier nommé workflow-apache-php contenant index.php :
+		 
+		 		$ mkdir -p workflow-apache-php/index.php
+				$ nano index.php
