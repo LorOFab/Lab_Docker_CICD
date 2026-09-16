@@ -15,3 +15,12 @@ Objectif : mettre en place un environnement conteneurisé pour une
 		 		$ mkdir workflow-apache-php
 				$ cd workflow-apache-php
 				$ nano index.php
+
+-------------------------------------------------------------------------------------------
+
+Étape 2 : création du Dockerfile
+
+Le Dockerfile définira l'environnement Apache et PHP.
+
+				$ cd workflow-apache-php
+				$ nano Dockerfile 
