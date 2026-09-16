@@ -24,3 +24,29 @@ Le Dockerfile définira l'environnement Apache et PHP.
 
 				$ cd workflow-apache-php
 				$ nano Dockerfile 
+				
+-------------------------------------------------------------------------------------------
+
+Étape 3 : test local de l'application avec Docker
+
+	a- Construction de l'image Docker :
+
+		$ docker build -t workflow-apache-php .
+
+	b- Lançons le conteneur :
+
+		$ docker run -d -p 8080:80 workflow-apache-php
+		
+	c- Une fois le conteneur lancé, vérifions. Pour ce faire, on lance :
+	
+		$ curl -f http://localhost:8080 | grep "Bonjour"
+		
+			 Le message dans la console est le contenu du fichier index.php
+
+			 
+
+
+
+
+
+
